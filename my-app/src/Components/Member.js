@@ -1,7 +1,7 @@
 import React from "react"
 
 const Member = props => {
-    console.log(props)
+    console.log(props, "these are the props passed to member")
     return (
         <div className='member-list'>
             {props.memberList.map((member, index) => {

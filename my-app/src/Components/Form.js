@@ -50,6 +50,7 @@ const Form = props => {
             />
 
             <button type='submit'>Add Member</button>
+            <button type='submit'>Edit Member</button>
         </form>
     )
 }

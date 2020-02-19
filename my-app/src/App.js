@@ -12,6 +12,8 @@ function App() {
         setMembers([...members, member])
     }
 
+    // const [memberToEdit, setMembersToEdit] = useState('')
+
     return (
         <div className='App'>
             <header className='App-header'>
